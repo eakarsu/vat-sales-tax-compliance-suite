@@ -1,0 +1,145 @@
+{
+  "slug": "vat-sales-tax-compliance-suite",
+  "title": "VAT Sales Tax Compliance Suite",
+  "buyer": "Finance teams, ecommerce companies, global tax teams",
+  "description": "VAT and sales tax nexus, rate determination, exemption certificates, filings, reconciliation, and audit support.",
+  "modules": [
+    {
+      "id": "nexus",
+      "table": "nexus",
+      "label": "Nexus Monitoring",
+      "description": "Nexus Monitoring workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Economic nexus",
+        "Physical presence",
+        "Thresholds"
+      ],
+      "prefix": "NM",
+      "seedValues": [
+        "Economic nexus",
+        "Physical presence",
+        "Thresholds"
+      ]
+    },
+    {
+      "id": "tax-rules",
+      "table": "taxRules",
+      "label": "Tax Rules",
+      "description": "Tax Rules workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Product taxability",
+        "Jurisdictions",
+        "Rates"
+      ],
+      "prefix": "TR",
+      "seedValues": [
+        "Product taxability",
+        "Jurisdictions",
+        "Rates"
+      ]
+    },
+    {
+      "id": "exemptions",
+      "table": "exemptions",
+      "label": "Exemptions",
+      "description": "Exemptions workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Certificates",
+        "Expiry",
+        "Validation"
+      ],
+      "prefix": "E",
+      "seedValues": [
+        "Certificates",
+        "Expiry",
+        "Validation"
+      ]
+    },
+    {
+      "id": "filings",
+      "table": "filings",
+      "label": "Filings",
+      "description": "Filings workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "VAT returns",
+        "Sales tax returns",
+        "Deadlines"
+      ],
+      "prefix": "F",
+      "seedValues": [
+        "VAT returns",
+        "Sales tax returns",
+        "Deadlines"
+      ]
+    },
+    {
+      "id": "reconciliation",
+      "table": "reconciliation",
+      "label": "Reconciliation",
+      "description": "Reconciliation workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "GL tie-out",
+        "Marketplace data",
+        "Adjustments"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "GL tie-out",
+        "Marketplace data",
+        "Adjustments"
+      ]
+    },
+    {
+      "id": "audit-support",
+      "table": "auditSupport",
+      "label": "Audit Support",
+      "description": "Audit Support workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Document requests",
+        "Sampling",
+        "Defense"
+      ],
+      "prefix": "AS",
+      "seedValues": [
+        "Document requests",
+        "Sampling",
+        "Defense"
+      ]
+    },
+    {
+      "id": "registrations",
+      "table": "registrations",
+      "label": "Registrations",
+      "description": "Registrations workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Jurisdiction onboarding",
+        "IDs",
+        "Status"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "Jurisdiction onboarding",
+        "IDs",
+        "Status"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Tax Analytics",
+      "description": "Tax Analytics workspace for VAT Sales Tax Compliance Suite.",
+      "subfeatures": [
+        "Exposure",
+        "Penalties",
+        "Trend"
+      ],
+      "prefix": "TA",
+      "seedValues": [
+        "Exposure",
+        "Penalties",
+        "Trend"
+      ]
+    }
+  ],
+  "port": 5613
+}

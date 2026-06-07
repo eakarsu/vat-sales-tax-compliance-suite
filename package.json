@@ -1,0 +1,14 @@
+{
+  "name": "vat-sales-tax-compliance-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VAT and sales tax nexus, rate determination, exemption certificates, filings, reconciliation, and audit support.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
